@@ -1,0 +1,5 @@
+Start MemCached caching service
+    docker run -it --rm --name memcached -p 11211:11211 memcached -m 64
+
+Start Redis caching service
+    docker run -it --rm --name redis -p 6379:6379 redis
